@@ -16,8 +16,11 @@ const NavbarComponent = () => {
             <Link href={'#about'} className={pathName === '#about' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
                 <li className="font-bold"><a>About Me</a></li>
             </Link>
-            <Link href={'/'} className={pathName === '/kk' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
+            <Link href={'#skills'} className={pathName === '#skills' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
                 <li className="font-bold"><a>My Skills</a></li>
+            </Link>
+            <Link href={'#qualification'} className={pathName === '#qualification' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
+                <li className="font-bold"><a>Qualifications & Experiences</a></li>
             </Link>
         </>
 
