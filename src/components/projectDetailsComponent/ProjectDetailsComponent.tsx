@@ -1,6 +1,7 @@
 "use client"
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const ProjectDetailsComponent = (props: any) => {
@@ -28,9 +29,15 @@ const ProjectDetailsComponent = (props: any) => {
             <p className="mt-4 text-lg">{project.details}</p>
             <Image width={0} height={0} src={project.image} alt={project.title} className="mt-6 w-full md:max-w-2xl mx-auto rounded-lg shadow-lg" />
             <div className="mt-6 flex flex-col md:flex-row justify-center gap-3">
-                <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">Live View</a>
-                <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">GitHub (Forntend)</a>
-                <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">GitHub (Backend)</a>
+                <Link legacyBehavior href={project.liveLink}>
+                    <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">Live View</a>
+                </Link>
+                <Link legacyBehavior href={project.githubFront}>
+                    <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">GitHub (Forntend)</a>
+                </Link>
+                <Link legacyBehavior href={project.githubBack}>
+                    <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">GitHub (Backend)</a>
+                </Link>
             </div>
         </div>
     );

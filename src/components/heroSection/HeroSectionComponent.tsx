@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
@@ -23,12 +24,20 @@ const HeroSectionComponent = () => {
                         </p>
                         <div className='flex items-center gap-5'>
                             <button className="btn text-base font-bold rounded-3xl px-9 bg-white border border-[#8750F7] text-[#8750F7] hover:bg-[#8750F7] hover:text-white">
-                                Download CV
-                                <FaDownload/>
+                                <a className='flex gap-2 items-center' href="/KowshikChakrabortyCV.pdf" download="KowshikChakrabortyCV.pdf">
+                                    Download CV
+                                    <FaDownload />
+                                </a>
                             </button>
-                            <FaGithub className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
-                            <FaLinkedin className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
-                            <FaFacebook className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                            <Link href={'https://github.com/kowshikchakraborty-aiub'}>
+                                <FaGithub className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                            </Link>
+                            <Link href={'https://www.linkedin.com/in/kowshik-chakraborty/'}>
+                                <FaLinkedin className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                            </Link>
+                            <Link href={'https://www.facebook.com/profile.php?id=100009473225157'}>
+                                <FaFacebook className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                            </Link>
                         </div>
                     </div>
                 </div>
