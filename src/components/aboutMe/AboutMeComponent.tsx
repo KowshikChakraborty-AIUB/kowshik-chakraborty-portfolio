@@ -24,8 +24,8 @@ const AboutMeComponent = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <Image
-                        width={40}
-                        height={40}
+                        width={160}
+                        height={160}
                         src="https://i.ibb.co/KKvPDbt/Kowshik.jpg"
                         alt="Your Name"
                         className="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-lg border-4 border-[#8750F7]"
