@@ -36,11 +36,10 @@ const ProjectCardsComponent = () => {
                             {/* Background Image */}
                             <div className="absolute inset-0">
                                 <Image
-                                    width={0}
-                                    height={0}
                                     src={project.image}
                                     alt={project.title}
-                                    className="w-full h-full object-cover opacity-90"
+                                    fill
+                                    className="object-cover opacity-90"
                                 />
                             </div>
 

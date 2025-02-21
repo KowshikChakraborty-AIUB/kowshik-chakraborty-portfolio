@@ -27,7 +27,7 @@ const ProjectDetailsComponent = (props: any) => {
         <div className="p-8 min-h-screen">
             <h1 className="text-3xl font-bold text-center">{project.title}</h1>
             <p className="mt-4 text-lg">{project.details}</p>
-            <Image width={0} height={0} src={project.image} alt={project.title} className="mt-6 w-full md:max-w-2xl mx-auto rounded-lg shadow-lg" />
+            <Image width={672} height={672} src={project.image} alt={project.title} className="mt-6 w-full md:max-w-2xl mx-auto rounded-lg shadow-lg" />
             <div className="mt-6 flex flex-col md:flex-row justify-center gap-3">
                 <Link legacyBehavior href={project.liveLink}>
                     <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">Live View</a>
