@@ -1,0 +1,23 @@
+ [
+    {
+        "id": "1",
+        "title": "The Garden Guide",
+        "description": "Project was about gardening tips and advise platform. Kind of social media platform",
+        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "link": "/projects/deloitte"
+    },
+    {
+        "id": "2",
+        "title": "MeetRoomHub.com",
+        "description": "The project was about book a meeting room with available time slots",
+        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "link": "/projects/sebastian-camargo"
+    },
+    {
+        "id": "3",
+        "title": "Tales From Bangla",
+        "description": "Local tour service project where user can get our services details and take our services.",
+        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "link": "/projects/tech-innovations"
+    }
+]

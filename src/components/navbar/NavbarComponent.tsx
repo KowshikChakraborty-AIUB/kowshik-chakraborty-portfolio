@@ -22,6 +22,9 @@ const NavbarComponent = () => {
             <Link href={'#qualification'} className={pathName === '#qualification' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
                 <li className="font-bold"><a>Qualifications & Experiences</a></li>
             </Link>
+            <Link href={'#projects'} className={pathName === '#projects' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
+                <li className="font-bold"><a>Projects</a></li>
+            </Link>
         </>
 
     return (
@@ -59,7 +62,9 @@ const NavbarComponent = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">Contact Me</a>
+                    <Link legacyBehavior href={'#contact'}>
+                        <a className="btn bg-gradient-to-r from-[#804BEA] to-[#40237B] text-white font-bold text-base">Contact Me</a>
+                    </Link>
                 </div>
             </div>
         </div>
