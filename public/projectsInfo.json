@@ -4,7 +4,7 @@
         "title": "The Garden Guide",
         "description": "Project was about gardening tips and advise platform. Kind of social media platform",
         "details": "The Garden Guide is a social media platform where user can create their accounts and post something useful about gardening and they can also upvote or downvote and comment on posts. Admin can manage user (change their role to admin or user), see performance stats and also can post something. Both user and admin can update or delete their profile informtaion.",
-        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "image": "/TheGardenGuide.JPG",
         "liveLink": "https://apollo-level2-web-dev-batch-3-assignment-6-github.vercel.app/",
         "githubFront": "https://github.com/KowshikChakraborty-AIUB/apollo-level2-web-dev-batch-3-assignment-6",
         "githubBack": "https://github.com/KowshikChakraborty-AIUB/apollo-level2-web-dev-batch-3-assignment-6-server"
@@ -14,7 +14,7 @@
         "title": "MeetRoomHub.com",
         "description": "The project was about book a meeting room with available time slots",
         "details": "MeetRoomHub.com is a room booking platform where user can see meeting rooms and can book rooms with available time slots. User can see their room booking information, profile information and also can update / delete their profile. Admin can see stats, create or update or delete meeting rooms and slots and can manage booking confirmation. Admin can also update /delete their profile.",
-        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "image": "/MeetRoomHub.JPG",
         "liveLink": "https://apollo-level2-web-dev-batch-3-assignment-5-github.vercel.app/",
         "githubFront": "https://github.com/KowshikChakraborty-AIUB/apollo-level2-web-dev-batch-3-assignment-5",
         "githubBack": "https://github.com/KowshikChakraborty-AIUB/apollo-level2-web-dev-batch-3-assignment-3"
@@ -24,7 +24,7 @@
         "title": "Tales From Bangla",
         "description": "Local tour service project where user can get our services details and take our services.",
         "details": "Tales from Bangla is a tour service website where user can see several types of tour lists, can search their desired tour options and can add to their schedules. Here, user can also add tour information, can manage tour information (update / delete). This project was done long ago, here user acts as both admin and normal user.",
-        "image": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "image": "/TalesFromBangla.JPG",
         "liveLink": "https://tales-from-bangla.surge.sh/",
         "githubFront": "https://github.com/KowshikChakraborty-AIUB/tales-from-bangla-client-side",
         "githubBack": "https://github.com/KowshikChakraborty-AIUB/tales-from-bangla-server-side"
