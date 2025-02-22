@@ -1,32 +1,32 @@
 [
     {
         "id": "1",
-        "category": "BUSINESS",
+        "category": "LIBRARY",
         "date": "Oct 01, 2022",
-        "comments": 5,
-        "title": "The Role Of Technology In Modern Business",
-        "content": "This is the full content of the Business blog...",
-        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
-        "categoryColor": "bg-purple-500"
+        "comments": 8,
+        "title": "Understanding React.js: The Power of Components",
+        "content": "React.js has revolutionized front-end development by introducing a component-based architecture. Unlike traditional approaches, React allows developers to build reusable UI components, making applications more scalable and maintainable. With its virtual DOM, React optimizes rendering performance, ensuring smooth user interactions. Whether you're building a simple UI or a complex application, React provides a flexible and efficient way to manage the view layer of your project.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        "categoryColor": "bg-blue-500"
     },
     {
         "id": "2",
-        "category": "DEVELOPMENT",
-        "date": "Nov 01, 2022",
-        "comments": 10,
-        "title": "The Role Of Technology In Modern Development",
-        "content": "This is the full content of the Development blog...",
-        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
-        "categoryColor": "bg-indigo-600"
+        "category": "FRAMEWORK",
+        "date": "Nov 15, 2022",
+        "comments": 12,
+        "title": "Next.js: The Future of React Development",
+        "content": "Next.js is a React-based framework that offers powerful features such as server-side rendering (SSR) and static site generation (SSG). These capabilities enhance website performance, improve SEO, and reduce load times. With built-in API routes, Next.js simplifies backend integration, making full-stack development seamless. Whether you're building a personal blog or an enterprise-grade application, Next.js provides the flexibility and scalability needed for modern web development.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+        "categoryColor": "bg-gray-800"
     },
     {
         "id": "3",
-        "category": "PORTFOLIO",
-        "date": "Dec 01, 2022",
-        "comments": 3,
-        "title": "Digital Marketo To Their New Office",
-        "content": "This is the full content of the Portfolio blog...",
-        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
-        "categoryColor": "bg-pink-500"
+        "category": "STATE MANAGEMENT",
+        "date": "Dec 05, 2022",
+        "comments": 7,
+        "title": "Redux: Managing State Efficiently in React",
+        "content": "Managing state in large-scale React applications can be challenging, and this is where Redux comes in. Redux provides a centralized store for managing application state, ensuring consistency across components. With actions and reducers, state transitions are predictable and easier to debug. Although Redux introduces some boilerplate, its benefits in terms of scalability and maintainability outweigh the initial setup complexity. If your application requires shared state across multiple components, Redux is a powerful solution.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png",
+        "categoryColor": "bg-red-500"
     }
 ]

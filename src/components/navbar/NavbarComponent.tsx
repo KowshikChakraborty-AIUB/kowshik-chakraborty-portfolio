@@ -25,6 +25,9 @@ const NavbarComponent = () => {
             <Link href={'#projects'} className={pathName === '#projects' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
                 <li className="font-bold"><a>Projects</a></li>
             </Link>
+            <Link href={'#blogs'} className={pathName === '#blogs' ? 'active text-base text-[#2A1454] underline font-bold' : ''}>
+                <li className="font-bold"><a>Blogs</a></li>
+            </Link>
         </>
 
     return (
