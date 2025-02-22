@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "category": "BUSINESS",
+        "date": "Oct 01, 2022",
+        "comments": 5,
+        "title": "The Role Of Technology In Modern Business",
+        "content": "This is the full content of the Business blog...",
+        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "categoryColor": "bg-purple-500"
+    },
+    {
+        "id": "2",
+        "category": "DEVELOPMENT",
+        "date": "Nov 01, 2022",
+        "comments": 10,
+        "title": "The Role Of Technology In Modern Development",
+        "content": "This is the full content of the Development blog...",
+        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "categoryColor": "bg-indigo-600"
+    },
+    {
+        "id": "3",
+        "category": "PORTFOLIO",
+        "date": "Dec 01, 2022",
+        "comments": 3,
+        "title": "Digital Marketo To Their New Office",
+        "content": "This is the full content of the Portfolio blog...",
+        "imageUrl": "https://i.ibb.co/KKvPDbt/Kowshik.jpg",
+        "categoryColor": "bg-pink-500"
+    }
+]
