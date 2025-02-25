@@ -19,8 +19,7 @@ const HeroSectionComponent = () => {
                             Mern Stack Developer
                         </p>
                         <p className="py-6">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Expertise in TypeScript, Next.js, MongoDB, Express.js, React.js, Node.js. Want to create an impact in the web development field by building attractive, user-friendly web applications.
                         </p>
                         <div className='flex flex-col md:flex-row items-center gap-5'>
                             <button className="btn text-base font-bold rounded-3xl px-9 bg-white border border-[#8750F7] text-[#8750F7] hover:bg-[#8750F7] hover:text-white">
