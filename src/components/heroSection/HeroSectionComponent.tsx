@@ -23,8 +23,8 @@ const HeroSectionComponent = () => {
                         </p>
                         <div className='flex flex-col md:flex-row items-center gap-5'>
                             <button className="btn text-base font-bold rounded-3xl px-9 bg-white border border-[#8750F7] text-[#8750F7] hover:bg-[#8750F7] hover:text-white">
-                                <a className='flex gap-2 items-center' href="/KowshikChakrabortyCV.pdf" download="KowshikChakrabortyCV.pdf">
-                                    Download CV
+                                <a className='flex gap-2 items-center' href="/KowshikChakrabortyResume.pdf" download="KowshikChakrabortyResume.pdf">
+                                    Download Resume
                                     <FaDownload />
                                 </a>
                             </button>
