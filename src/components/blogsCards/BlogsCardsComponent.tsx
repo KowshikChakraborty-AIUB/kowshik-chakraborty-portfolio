@@ -37,8 +37,8 @@ const BlogCardsComponent: React.FC = () => {
                             {/* <div className={`absolute top-3 left-3 text-white px-3 py-1 rounded-full text-xs font-semibold ${blog.categoryColor}`}>
                                 {blog.category}
                             </div> */}
-                            <div className="absolute bottom-3 left-3 right-3 bg-white p-4 rounded-xl shadow-md">
-                                <div className="flex items-center text-gray-500 text-xs gap-3 mb-1">
+                            <div className="absolute bottom-3 left-3 right-3 group bg-white hover:bg-gradient-to-r from-[#804BEA] to-[#40237B] hover:text-white p-4 rounded-xl shadow-md">
+                                <div className="flex items-center text-gray-500 group-hover:!text-white text-xs gap-3 mb-1">
                                     <span className="flex items-center gap-1">
                                         <Calendar size={12} /> {blog.date}
                                     </span>
@@ -46,7 +46,7 @@ const BlogCardsComponent: React.FC = () => {
                                         <MessageCircle size={12} /> {blog.comments} Comment{blog.comments !== 1 ? "s" : ""}
                                     </span> */}
                                 </div>
-                                <h3 className="text-black font-semibold text-lg">{blog.title}</h3>
+                                <h3 className="text-black group-hover:!text-white font-semibold text-lg">{blog.title}</h3>
                             </div>
                         </div>
                     </Link>

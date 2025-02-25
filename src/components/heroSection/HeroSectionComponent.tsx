@@ -22,22 +22,24 @@ const HeroSectionComponent = () => {
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                             quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
-                        <div className='flex items-center gap-5'>
+                        <div className='flex flex-col md:flex-row items-center gap-5'>
                             <button className="btn text-base font-bold rounded-3xl px-9 bg-white border border-[#8750F7] text-[#8750F7] hover:bg-[#8750F7] hover:text-white">
                                 <a className='flex gap-2 items-center' href="/KowshikChakrabortyCV.pdf" download="KowshikChakrabortyCV.pdf">
                                     Download CV
                                     <FaDownload />
                                 </a>
                             </button>
-                            <Link href={'https://github.com/kowshikchakraborty-aiub'}>
-                                <FaGithub className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
-                            </Link>
-                            <Link href={'https://www.linkedin.com/in/kowshik-chakraborty/'}>
-                                <FaLinkedin className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
-                            </Link>
-                            <Link href={'https://www.facebook.com/profile.php?id=100009473225157'}>
-                                <FaFacebook className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
-                            </Link>
+                            <div className='flex gap-3 md:flex-none'>
+                                <Link href={'https://github.com/kowshikchakraborty-aiub'}>
+                                    <FaGithub className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                                </Link>
+                                <Link href={'https://www.linkedin.com/in/kowshik-chakraborty/'}>
+                                    <FaLinkedin className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                                </Link>
+                                <Link href={'https://www.facebook.com/profile.php?id=100009473225157'}>
+                                    <FaFacebook className='bg-white text-[#8750F7] border border-[#8750F7] rounded-full w-10 h-10 px-2 hover:bg-[#8750F7] hover:text-white cursor-pointer' />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
